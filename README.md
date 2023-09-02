@@ -1,4 +1,7 @@
-# Supplementary Materials Descriptions
+# MUBASE - MUltiplatform BAngla SEntiment
+
+The MUBASE dataset is a multiplatform dataset consisting of Tweets and Facebook posts, which are manually annotated with sentiment polarity.
+The annotation agreement of this manually annotated dataset shows an agreement score of 0.84, indicating a perfect agreement among the annotators.
 
 ## Dataset
 
@@ -110,3 +113,20 @@ python code/run_glue_v1.py \
 #### Bloomz
 
 To run Bloomz model, it requires to host in a server.
+
+## Citation
+
+```
+@article{hasan2023zero,
+  title={Zero-and Few-Shot Prompting with LLMs: A Comparative Study with Fine-tuned Models for Bangla Sentiment Analysis},
+  author={Hasan, Md Arid and Das, Shudipta and Anjum, Afiyat and Alam, Firoj and Anjum, Anika and Sarker, Avijit and Noori, Sheak Rashed Haider},
+  journal={arXiv preprint arXiv:2308.10783},
+  year={2023}
+}
+```
+
+
+## License
+MUBASE is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+
+You should have received a copy of the license along with this work. If not, see [http://creativecommons.org/licenses/by-nc-sa/4.0/](http://creativecommons.org/licenses/by-nc-sa/4.0/).
