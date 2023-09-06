@@ -9,6 +9,23 @@ The annotation agreement of this manually annotated dataset shows an agreement s
  - [development set](./Dataset/MUBASE_dev.tsv)
  - [test set](./Dataset/MUBASE_test.tsv)
 
+#### Data format
+Each file uses the tsv format. A row within the tsv adheres to the following structure:
+
+```
+id	text	label
+```
+Where:
+* id: an index or id of the text
+* text: text
+* label: Positive, Negative, or Neutral
+
+##### Example
+```
+14737	এখান থেকে সবাই শিক্ষা নিতে পারি ।	Positive
+```
+
+
 ## [Code](./code)
 
 Code folder includes all the scripts that we used for our experiments. To run the scripts, please follow the bellow commands:
